@@ -9,7 +9,7 @@
 
 .container{
     display: flex;
-    background: rgb(73, 89, 129);
+    background: #1f2937;
     flex-direction: column;
     margin: 0;
     padding: 0;
@@ -27,14 +27,30 @@ a {
     display: flex;
     justify-content: end;
     text-decoration: none;
-    color: rgb(32, 23, 23);
+    color: white;
     gap: 5px;
 }
 
 .title {
-    color: white;
     padding: 0 200px;
-    margin-bottom: 0px;
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+    width: 300px;
+    flex-wrap: wrap;
+    margin-bottom: 2px;
+
+}
+
+.title-text {
+    padding: 0 200px;
+    margin-top: 0px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.info {
+    margin-top: 40px;
 }
 
 .body {
