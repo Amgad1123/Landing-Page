@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    padding: 0 200px;
+
+}
+
+.container{
+    display: flex;
+    background: rgb(73, 89, 129);
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 8px;
+    justify-content: space-between;
+}
+a {
+    display: flex;
+    justify-content: end;
+    text-decoration: none;
+    color: rgb(32, 23, 23);
+    gap: 5px;
+}
+
+.title {
+    color: white;
+    padding: 0 200px;
+    margin-bottom: 0px;
+}
+
+.body {
+    display: flex;
+}
