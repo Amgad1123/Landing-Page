@@ -11,7 +11,6 @@
     display: flex;
     background: #1f2937;
     flex-direction: column;
-    margin: 0;
     padding: 0;
 }
 
@@ -53,13 +52,17 @@ a {
     padding: 0 200px;
 }
 
+
 button {
     color: white;
-    background: blue;
-    border: none;
+    background: #3882f6;
     border-radius: 8px;
     padding: 8px 24px;
+}
+
+.button {
     margin-bottom: 100px;
+    border: none;
 }
 
 .empty {
@@ -106,4 +109,40 @@ button {
     justify-content: center;
     margin: 20px 0px;
     align-items:last baseline;
+}
+
+.actions {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.action {
+    color: white;
+    font-weight: 400;
+    margin-bottom: -12px;
+}
+
+.button2 {
+    display: flex;
+    margin-right: 40px;
+    border-color: white;
+}
+.subsection4 {
+    display: flex;
+    align-items: center;
+    width: 800px;
+    justify-content: space-between;
+}
+.container4 {
+    background: #3882f6;
+    padding: 25px;
+    margin-left: 200px;
+    width: 800px;
+    border-radius: 8px;
+}
+.sub-text {
+    font-size: 14px;
+    color: #e5e7eb;
+
 }
