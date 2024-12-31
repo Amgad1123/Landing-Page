@@ -32,7 +32,6 @@ a {
 }
 
 .title {
-    padding: 0 200px;
     color: #f9faf8;
     font-size: 48px;
     font-weight: 900;
@@ -43,16 +42,31 @@ a {
 }
 
 .title-text {
-    padding: 0 200px;
     margin-top: 0px;
     font-size: 18px;
     color: #e5e7eb;
+    margin-bottom: 8px;
 }
 
 .info {
     margin-top: 40px;
+    padding: 0 200px;
 }
 
-.body {
+button {
+    color: white;
+    background: blue;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 24px;
+    margin-bottom: 100px;
+}
+
+.empty {
+    padding: 0 100px;
+}
+
+.first-section {
     display: flex;
+    align-items: center;
 }
