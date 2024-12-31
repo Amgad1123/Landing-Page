@@ -70,3 +70,40 @@ button {
     display: flex;
     align-items: center;
 }
+
+.sub-header{
+    text-align: center;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 16px;
+}
+.sub-info {
+    max-width: 200px;
+}
+
+.text {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.quote {
+    display: flex;
+    font-size: 36px;
+    color: #1f2937;
+    flex-wrap: wrap;
+    width: 450px;
+}
+.quotee {
+    font-weight: 800;
+}
+.container3 {
+    display: flex;
+    background: #e5e7eb;
+    justify-content: center;
+    margin: 20px 0px;
+    align-items:last baseline;
+}
